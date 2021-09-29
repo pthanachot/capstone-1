@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	font-family: Roboto;
+	box-sizing: border-box !important;
+}
+
+
+nav {
+	padding-top: 40px !important;
+}
+
+
+nav div ul li {
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.hero-section {
+	background-image: url("background.png");
+	height: 615px;
+}
+
+
+.row-nav {
+	margin-bottom: 100px;
+}
+
+.hero-text div {
+	font-size: 72px;
+	font-family: Rozha One !important;
+}
+
+#hero-button {
+	font-size: 20px;
+}
+
+.about-me {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+.about-img {
+	border: 4px #BACDD1 solid;
+	background-color: #F8F8F8;
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	
+
+}
+
+.about-img img {
+	width: 85%;
+	object-fit: cover;
+}
+
+.about-text {
+
+}
+
+#about-row1 {
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+
+#about-row1 div {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+#about-row1 div h2 {
+	font-size: 60px;
+}
+
+
+#about-row2{
+	margin-left: 10%;
+}
+
+
+
