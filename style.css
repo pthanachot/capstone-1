@@ -14,6 +14,13 @@ nav {
 	padding-top: 40px !important;
 }
 
+.navbar {
+	padding-left: 0px !important;
+}
+
+.navbar-nav {
+	float:  right;
+}
 
 nav div ul li {
 	width: 150px;
@@ -31,15 +38,30 @@ nav div ul li {
 	background-color: #E4FF27;
 	border-radius: 20px;
 	width: 109px;
+	font-size: 18px !important;
+	font-weight: 700;
 }
 
+
+
+.navbar-toggler {
+	background: #E4FF27;
+	border: none;
+	padding:  10px 6px;
+	outline: none;
+}
+
+
+.navbar-collapse {
+
+} 
 
 /*Hero Section*/
 
 .hero-section {
 	background-image: url("background.png");
 	height: 615px;
-	/*heigth: 80vh;*/
+	heigth: 80vh;
 }
 
 
@@ -70,6 +92,7 @@ nav div ul li {
 	font-size: 20px !important;
 }
 
+
 .hero-button2 {
 	margin-left: 18px;
 	font-size: 16px !important;
@@ -80,10 +103,28 @@ nav div ul li {
 	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 	border-radius: 50px;
-
-
+	display: inline-block;
+	vertical-align: center;
+	text-align: center;
 
 }
+
+.nav-button:hover {
+	background-color: rgb(228, 255, 39, 0.6);
+	transition: 120ms linear;
+}
+
+.hero-button1:hover {
+	color: white;
+	transition: 120ms linear;
+}
+
+.hero-button2:hover {
+	color: rgb(228, 255, 39, 0.6);
+	transition: 120ms linear;
+}
+
+
 
 
 
@@ -215,6 +256,33 @@ nav div ul li {
 	border: none;
 }
 
+input {
+	border: black 1px solid !important;
+}
+
+textarea {
+	border: black 1px solid !important;
+}
+
+
+.btn-form {
+	background-color: #E4FF27;
+	font-weight: 700;
+}
+
+#container-contact {
+	display: inline-block;
+	border-bottom: 4px solid #E4FF27;
+}
+
+
+.contact div div div h2 {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+
+
 /*Footer*/
 
 .footer {
@@ -234,20 +302,42 @@ nav div ul li {
 .footer-style > div > div > a {
 	color:  #d2d2d2;
 	text-decoration: none;
+	font-size: 14px !important;
 }
 
 .footer-tab p {
 	margin-bottom: 0px;
 	color:  #d2d2d2;
+	font-size: 14px !important;
 }
 
 
 .footer-style > div > h5 {
 	font-family: Rozha One !important;
 	font-weight: bold;
+	font-size: 16px !important;
 }
+
+
+
 
 .social-media a {
 	color:  white;
 	margin-left: 30px;
+}
+
+.social-media-icon {
+	width: 24px;
+	margin-right: 6px;
+}
+
+
+.footer-text-ad {
+	font-weight: 900;
+}
+
+
+.footer-icon {
+	width: 20px;
+	margin-right: 8px;
 }
