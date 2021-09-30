@@ -2,8 +2,13 @@
 	margin: 0;
 	font-family: Roboto;
 	box-sizing: border-box !important;
+	
 }
 
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
 
 nav {
 	padding-top: 40px !important;
@@ -14,12 +19,27 @@ nav div ul li {
 	width: 150px;
 	font-size: 20px;
 	text-align: center;
+
 }
 
+.nav-link {
+	color: black !important;
+}
+
+
+.nav-button {
+	background-color: #E4FF27;
+	border-radius: 20px;
+	width: 109px;
+}
+
+
+/*Hero Section*/
 
 .hero-section {
 	background-image: url("background.png");
 	height: 615px;
+	/*heigth: 80vh;*/
 }
 
 
@@ -30,21 +50,64 @@ nav div ul li {
 .hero-text div {
 	font-size: 72px;
 	font-family: Rozha One !important;
+	margin-top: -10px;
 }
 
 #hero-button {
-	font-size: 20px;
+	width: 260px;
+	height: 55px;
+	margin-top: 20px;
+	font-family: roboto !important;
+
 }
 
+#hero-button p {
+	display: inline;
+}
+
+
+.hero-button1 {
+	font-size: 20px !important;
+}
+
+.hero-button2 {
+	margin-left: 18px;
+	font-size: 16px !important;
+	color: #E4FF27;
+}
+
+.btn-hero-style {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	border-radius: 50px;
+
+
+
+}
+
+
+
+/*Profile*/
+.profile {
+	width: 52vw;
+	margin-left:calc(10vw - 100%);
+	margin-top: -18%;
+}
+
+
+
+/*About Me*/
 .about-me {
-	padding-top: 100px;
+	padding-top: 150px;
 	padding-bottom: 100px;
+	background-color: #FCFAF8;;
 }
 
 
 .about-img {
-	border: 4px #BACDD1 solid;
-	background-color: #F8F8F8;
+	border: 2px #000000 solid;
+	background-color: #FFFFFF;
+
 	height: 100%;
 	width: 100%;
 	border-radius: 20px;
@@ -72,9 +135,14 @@ nav div ul li {
 	padding-right: 0;
 }
 
+#about-row1 > div > div {
+	display: inline-block;
+}
+
 
 #about-row1 div h2 {
 	font-size: 60px;
+	border-bottom: 5px solid #E4FF27;
 }
 
 
@@ -83,4 +151,103 @@ nav div ul li {
 }
 
 
+/*Project*/
+.project {
+	background-color: #F4EAE1;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 
+.card-style {
+	background-color: #BACDD1;
+}
+
+.card-style div h5 {
+	font-family: Rozha One !important;
+	font-size: 36px;
+}
+
+.btn-style {
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+
+.tag p {
+	display: inline-block;
+	padding: 4px;
+	font-size: 12px;
+	border: 1px #000000 solid;
+	background-color: #E4FF27;
+	margin-right: 8px;
+	margin-bottom: 12px !important;
+}
+
+
+.project-img-box {
+	margin: 1.25rem auto !important;
+	height: 275px;
+	width: 275px;
+}
+
+.carousel-item > img {
+	object-fit: cover;
+}
+
+
+
+.project-img-box > img {
+	object-fit: cover;
+}
+
+
+
+/*Contact*/
+.contact {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.googlemap {
+	width: 100%;
+	height:  100%;
+	border: none;
+}
+
+/*Footer*/
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-style {
+	padding-bottom: 40px;
+	border-bottom: 0.5px white solid;
+}
+
+.profile-footer {
+	width: 10vw;
+}
+
+
+.footer-style > div > div > a {
+	color:  #d2d2d2;
+	text-decoration: none;
+}
+
+.footer-tab p {
+	margin-bottom: 0px;
+	color:  #d2d2d2;
+}
+
+
+.footer-style > div > h5 {
+	font-family: Rozha One !important;
+	font-weight: bold;
+}
+
+.social-media a {
+	color:  white;
+	margin-left: 30px;
+}
